@@ -2,13 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Master Key</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+  <body id="paginaPrincipal"> <!--Un ID para controlar la alineación en el CSS y los estilos generales -->
+    <div id="inicio"><!-- Primer sección-->
+      <div class="letras">
+        <img src="img/logo.jpg.png">
+        <h1>MASTER KEY</h1>
+      </div>
+      <p1> ¿No te pasa que siempre usas la misma contraseña para todas tus cuentas?
+Y es válido porque actualmente manejamos tantas cuentas que recordar distintas contraseñas para cada una provocaría que nos volvería locos.
+No te preocupes sé por lo que pasas, porque escribir tantas contraseñas ya sea en papel o algún documento es igual de peligroso si alguien llega a encontrarlas.
+Para evitar esos problemas de seguridad y que tengas a salvo tu información llegó Master Key.</p1>
+      <br>
+      <br>
+      <img src="img/img1.jpg" title="¡Que ya no te pase!">
+      <h3>Instrucciones de Master Key:</h3>
+      <p2>Master Key consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado de posiciones (clave). Por ejemplo, si desplazamos 1 posición, reemplazaríamos la letra A con la B, la B con la C, y así sucesivamente hasta sustituir la Z por la A.
+      En este ejemplo la «clave» es 1 porque hemos desplazado 1 posición. </p2>
+      <ol>
+        <li> Debes introducir tu contraseña en el cuadro de texto como se ve en el ejemplo.</li>
+        <li> Debes elegir la clave que desplazará las letras.</li>
+        <li> Si quieres elegir una nueva contraseña pulsa el botón cifrar. Pero si quieres descifrar esa contraseña elige el botón descifrar.</li>
+      </ol>
+      <p3>Y listo de esta manera podrás utilizar la misma contraseña en diferentes cuentas sin que corras riesgos.</p3>
+      <br>
+      <br>
+      <a href="cipher.html"><button type="button" class="buttonOne">COMENZAR</button></a> <!-- Con este botón pasa a la página de cifrado o descifrado -->
+      <br>
+    </div>  
   </body>
 </html>

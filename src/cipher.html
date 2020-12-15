@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <div id="generaCifrado"> <!-- Segunda sección donde se puede cifrar y descifrar-->
+        <img src="img/logo.jpg.png">
+        <h1> MASTER KEY</h1>
+        <div id="borde">
+        <h2>Contraseña</h2>
+        <input id="password" maxlength="20" type="text" placeholder="Ingresa tu contraseña"><!-- Aquí pedimos la contraseña que se cifrará en el JS-->
+        <br>
+        <input type="number" id="clave" placeholder="Clave" min="0">
+        <p><button type="button" class="buttonTwo" id="buttonCifrar">Cifrar</button>
+        <button type="button" class="buttonTwo" id="buttonDescifrar">Descifrar</button> </p>
+        <h2>Nueva contraseña</h2>
+        <input id="newPassword" type="text" placeholder="Nueva contraseña">
+        <br>
+        </div>
+        <br>
+        <a href="index.html"><button type="button" class="buttonOne">REGRESAR</button></a> <!-- Con este botón regresa a la página de inicio -->
+      </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
