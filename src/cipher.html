@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
     <div id="generaCifrado"> <!-- Segunda sección donde se puede cifrar y descifrar-->
-        <img src="img/logo.jpg.png">
-        <h1> MASTER KEY</h1>
-        <div id="borde">
+        <img id="logo" src="img/logoMK.png">
+        <div id="caja">
         <h2>Contraseña</h2>
         <input id="password" maxlength="20" type="text" placeholder="Ingresa tu contraseña"><!-- Aquí pedimos la contraseña que se cifrará en el JS-->
         <br>
-        <input type="number" id="clave" placeholder="Clave" min="0">
+        <input type="number" class="desplazamiento" id="clave" placeholder="Clave" min="0">
         <p><button type="button" class="buttonTwo" id="buttonCifrar">Cifrar</button>
         <button type="button" class="buttonTwo" id="buttonDescifrar">Descifrar</button> </p>
         <h2>Nueva contraseña</h2>

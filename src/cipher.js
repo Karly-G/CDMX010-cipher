@@ -11,7 +11,7 @@ const cipher = { //constcipher es un objeto
         passwordCifrado += String.fromCharCode(formula);
       }
     } else {  
-      alert("No has ingresado tu contraseña");
+      alert("Solo ingresa mayúsculas y no admite la letra Ñ");
     }
     return passwordCifrado;
   },
